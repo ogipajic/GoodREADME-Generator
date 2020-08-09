@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Node.js and ES6+ :Good README Generator",
   "main": "index.js",
+  "taype": "modul",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

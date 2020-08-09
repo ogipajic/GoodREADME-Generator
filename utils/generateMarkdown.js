@@ -1,6 +1,7 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
+export default function generateMarkdown(data) {
   return `
+
 
 # ${data.title}
 
@@ -41,4 +42,4 @@ Email:[${data.Email}](https://github.com/ogipajic)
 
 `;}
 
-module.exports = generateMarkdown;
+
