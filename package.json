@@ -1,14 +1,24 @@
 {
-  "name": "static-site",
+  "name": "good-readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js and ES6+ :Good README Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "https://github.com/ogipajic",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "axios": "^0.19.2",
+    "inquirer": "^6.5.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogipajic/GoodREADME-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ogipajic/GoodREADME-Generator/issues"
+  },
+  "homepage": "https://github.com/ogipajic/GoodREADME-Generator#readme"
 }

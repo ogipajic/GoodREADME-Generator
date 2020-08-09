@@ -1,3 +1,10 @@
+var fs = require("fs");
+var axios = require("axios");
+var inquirer = require("inquirer");
+var result = require("./utils/generateMarkdown");
+
+result();
+
 // array of questions for user
 const questions = [
 
