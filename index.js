@@ -1,9 +1,8 @@
-var fs = require("fs");
-var axios = require("axios");
-var inquirer = require("inquirer");
-var result = require("./utils/generateMarkdown");
+import { writeFile } from "fs";
+import pkg from 'inquirer';
+import generateMarkdown from "./utils/generateMarkdown.js";
 
-result();
+const { prompt } = pkg;
 
 // array of questions for user
 const questions = [
